@@ -1,0 +1,220 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #4e342e;
+    background-image: linear-gradient(rgba(78, 52, 46, 0.85), rgba(78, 52, 46, 0.85)),
+    url('/dozed/adminSide/image/loginBackground.jpg');  
+    background-size: cover;
+    background-position: center;
+    color: #3e2723;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media (max-width: 576px) {
+    .coffee-admin-container {
+        padding: 10px;
+    }
+
+    .admin-verify-form {
+        padding: 15px;
+    }
+
+    .form-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-actions .btn {
+        width: 100%;
+    }
+}
+
+.coffee-admin-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.coffee-admin-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.coffee-brand {
+    background-color: #5D4037;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-brand i {
+    margin-right: 10px;
+}
+
+.admin-verify-form {
+    padding: 25px;
+}
+
+.admin-verify-form h3 {
+    color: #5D4037;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-description {
+    text-align: center;
+    color: #795548;
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+}
+
+.coffee-input {
+    border: 1px solid #D7CCC8;
+    border-radius: 5px;
+    padding: 12px 15px;
+}
+
+.coffee-input:focus {
+    border-color: #8D6E63;
+    box-shadow: 0 0 0 0.2rem rgba(141, 110, 99, 0.25);
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.btn-coffee-danger {
+    background-color: #BF360C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-coffee-danger:hover {
+    background-color: #D84315;
+    transform: translateY(-2px);
+}
+
+.btn-coffee-secondary {
+    background-color: #8D6E63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-coffee-secondary:hover {
+    background-color: #A1887F;
+    transform: translateY(-2px);
+}
+
+.admin-footer {
+    background-color: #EFEBE9;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #BF360C;
+    border-top: 1px solid #D7CCC8;
+}
+
+.admin-footer i {
+    margin-right: 5px;
+}
+
+.alert {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #4e342e;
+    background-image: linear-gradient(rgba(78, 52, 46, 0.85), rgba(78, 52, 46, 0.85)),
+                  url('/dozed/adminSide/image/loginBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #3e2723;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    text-align: center;
+    color: #5D4037;
+    font-weight: bold;
+}
+
+h5 {
+    text-align: center;
+    color: #795548;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+
+.form-control {
+    border: 1px solid #D7CCC8;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #8D6E63;
+    box-shadow: 0 0 0 0.2rem rgba(141, 110, 99, 0.25);
+}
+
+.btn-coffee {
+    background-color: #BF360C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-coffee:hover {
+    background-color: #D84315;
+    transform: translateY(-2px);
+}
+
+.btn-cancel {
+    background-color: #8D6E63;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #A1887F;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
